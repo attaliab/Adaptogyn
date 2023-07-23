@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&family=Libre+Franklin:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital@1&display=swap");
+
+
+/* body {
+    background-color: black;
+} */
+
+#intro-landing {
+    background-image: url("/images/bglanding.png");
+    background-size: cover;
+    min-height: 50rem;
+}
+
+#background-image {
+    position: absolute;
+    
+    /* 100% height, auto width */
+  background-size: auto 100%;
+
+  /* 100% width, auto height */
+  background-size: 100% auto;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+#burger-menu {
+    
+}
+
+.navbar {
+    background-color: black;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #a1a1a1;
+}
+
+#active {
+    color: #50aa01;
+}
+
+.title {
+    color: white;
+    font-size: 10vh;
+    font-family: "Katibeh";
+}
+
+.info {
+    justify-content: center;
+}
+
+.about {
+    color: white;
+    font-family: "Libre Franklin";
+    padding-right: 1em;
+    font-size: 4vh;
+}
+.buy-btn {
+    background: #50aa01;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.buy-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*body*/
+
+.heading {
+    font-family: 'Katibeh', 'Times New Roman', Times, serif;
+    font-size: 10vh;
+}
+
+.card-body h2 {
+    /* width: 18rem; */
+    font-size: 150%;
+}
+
+.card {
+  background-color: #f1f1f1;
+  border-radius: 15px;
+  border-color: #00a3ff;
+border-radius: 30px;
+}
+
+#tulsi-img {
+    height: 25vh;
+}
+
+.journey-section {
+    background-color: black;
+}
+
+.journey-section h1{
+        background: -webkit-linear-gradient(45deg, #00c24e, #00a3ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        min-width: 100vh;
+}
+
+.review-title{
+    font-size: 10vh;
+    font-family: 'Katibeh', 'Times New Roman', Times, serif;
+}
+
+.card-text {
+    /* font-style: italic;
+    color: lightgray; */
+}
+
+
+
+
+/*------Newsletter---------*/
+
+.newsletter img {
+    max-width: 113px;
+    max-width: 113px;
+    position: absolute;
+    right: 45%;
+    bottom: 87%;
+    z-index: 1;
+  }
+  
+  .newsletter {
+    background-color: black;
+    color: white;
+    position: relative;
+    height: 384px;
+    margin-top: 150px;
+    white-space: nowrap;
+  }
+  .newsletter h1 {
+    font-size: 36px;
+    text-align: center;
+    font-family: "libre franklin", sans-serif;
+    padding-top: 80px;
+  }
+  .newsletter h2 {
+    font-size: 24px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: "libre franklin", sans-serif;
+  }
+  .email form {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin: 50px;
+  }
+  
+  input {
+    background-color: #2d2d2d;
+    position: absolute;
+    width: 623px;
+    height: 58px;
+    border: none;
+    background: #2d2d2d;
+    border-radius: 10px;
+  }
+  .email input[type="submit"] {
+    position: relative;
+    width: 181px;
+    height: 60px;
+    left: 220px;
+    border: none;
+    font-size: 14px;
+    background-color: #00c24e;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+  }
+  
+  .email input[placeholder="Email address"] {
+    padding: 30px;
+    font-size: 14px;
+  }
+  
+  .socials img {
+    position: relative;
+    padding: 20px 15px;
+    top: 300px;
+    float: right;
+  }
+  
+  #ender {
+    position: relative;
+    min-width: 100vw;
+    height: 22px;
+  
+    background: linear-gradient(
+      90.27deg,
+      #00a3ff 14.19%,
+      #00a3ff 14.19%,
+      #00c24e 92.59%
+    );
+  }
+  .field:focus {
+    color: white;
+  }
+  
+
